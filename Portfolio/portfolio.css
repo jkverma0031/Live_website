@@ -1,0 +1,53 @@
+
+body {
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: linear-gradient(rgb(0, 0, 0),black, rgb(0, 255, 98));
+}
+
+.flex-container {
+    display: flex; 
+    width: 85vw;
+    height: 80vh;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgb(27, 26, 26);
+    border-radius: 15px;
+    border: 3px solid black;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h1{
+    text-align: center;
+    font-size: 45px;
+    background: linear-gradient(45deg, rgb(0, 255, 98), rgb(0, 255, 98), rgb(0, 255, 98));
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 20px auto;
+}
+h2{
+  color: white;
+}
+p{
+  color: white;
+}
+
+.Profile_Photo{
+  width: 85px;        /* make it small */
+  height: 85px;       /* fix height equal to width */
+  border-radius: 50%;  /* makes it a perfect circle */
+  object-fit: cover;   /* ensures image fills the circle */
+  /* display: block;       */
+  margin: 40px ;   /* centers the image */
+  
+  /* optional extra styling */
+  border: 3px solid #333333;  
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  align-items: center;
+    /* position in top-right corner */
+  position: relative;    /* allows you to place anywhere on page */
+  top: 10px;             /* distance from top */
+  right: 10px;           /* distance from right */
+}
